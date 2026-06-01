@@ -40,3 +40,10 @@ This project aims to detect fraudulent credit card transactions using Machine Le
 - XGBoost
 - Hyperparameter Tuning
 - Model Deployment
+
+## Dataset
+
+This project uses the Credit Card Fraud Detection dataset available on Kaggle.
+
+Dataset Link:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
