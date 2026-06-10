@@ -30,10 +30,19 @@ This project aims to detect fraudulent credit card transactions using Machine Le
 7. Model Evaluation
 
 ## Results
-- High Precision
-- High Recall
-- Strong F1 Score
-- ROC-AUC Evaluation
+
+| Metric        | Score  |
+| ------------- | ------ |
+| Test Accuracy | 98.95% |
+| Precision     | 99.43% |
+| Recall        | 98.47% |
+| F1 Score      | 98.95% |
+| ROC-AUC Score | 99.85% |
+
+### Performance Summary
+
+The Logistic Regression model achieved excellent performance on the test dataset. By applying SMOTE to address class imbalance, the model was able to effectively detect fraudulent transactions while maintaining high precision and recall. The ROC-AUC score of 99.85% indicates a strong ability to distinguish between fraudulent and legitimate transactions.
+
 
 ## Future Improvements
 - Random Forest
